@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NextGen Electrical Services - Email Signature</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f5f5f5;
+            padding: 40px 20px;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .preview-header {
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        
+        .preview-header h1 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        
+        .preview-header p {
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .email-client-mockup {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .email-header {
+            background: #f8f9fa;
+            border-bottom: 1px solid #e9ecef;
+            padding: 20px 30px;
+        }
+        
+        .email-field {
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+        
+        .email-field strong {
+            color: #666;
+            display: inline-block;
+            width: 80px;
+        }
+        
+        .email-field span {
+            color: #333;
+        }
+        
+        .email-body {
+            padding: 30px;
+            background: #fff;
+        }
+        
+        .email-content {
+            margin-bottom: 40px;
+            color: #333;
+            font-size: 15px;
+            line-height: 1.8;
+        }
+        
+        .signature-divider {
+            border: none;
+            border-top: 1px solid #e0e0e0;
+            margin: 30px 0;
+        }
+        
+        /* Email Signature Styles */
+        .email-signature {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #333;
+        }
+        
+        .signature-table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 600px;
+        }
+        
+        .signature-table td {
+            vertical-align: top;
+            padding: 0 0 0 10px;
+        }
+        
+        .logo-cell {
+            width: 140px;
+            padding-right: 25px;
+        }
+        
+        .logo-cell img {
+            width: 140px;
+            height: auto;
+            display: block;
+        }
+        
+        .info-cell {
+            border-left: 3px solid #2d7a3a;
+            padding-left: 25px;
+        }
+        
+        .name {
+            font-size: 22px;
+            font-weight: bold;
+            color: #1a1a1a;
+            margin-bottom: 4px;
+            letter-spacing: 0.3px;
+        }
+        
+        .title {
+            font-size: 15px;
+            color: #2d7a3a;
+            font-weight: 600;
+            margin-bottom: 18px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .contact-info {
+            font-size: 14px;
+            line-height: 1.8;
+            color: #555;
+        }
+        
+        .contact-item {
+            margin-bottom: 4px;
+        }
+        
+        .contact-label {
+            color: #888;
+            display: inline-block;
+            width: 60px;
+            font-size: 13px;
+        }
+        
+        .contact-value {
+            color: #333;
+            font-weight: 500;
+        }
+        
+        .contact-value a {
+            color: #333;
+            text-decoration: none;
+        }
+        
+        .contact-value a:hover {
+            color: #2d7a3a;
+            text-decoration: underline;
+        }
+        
+        .code-section {
+            background: #2d3748;
+            border-radius: 8px;
+            padding: 25px;
+            margin-top: 30px;
+        }
+        
+        .code-section h2 {
+            color: #fff;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        
+        .code-block {
+            background: #1a202c;
+            padding: 20px;
+            border-radius: 6px;
+            overflow-x: auto;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            line-height: 1.6;
+            color: #e2e8f0;
+        }
+        
+        .code-block code {
+            color: #a0aec0;
+        }
+        
+        .tag { color: #f56565; }
+        .attr { color: #63b3ed; }
+        .value { color: #68d391; }
+        .text { color: #e2e8f0; }
+        
+        @media (max-width: 600px) {
+            .signature-table {
+                display: block;
+            }
+            
+            .logo-cell, .info-cell {
+                display: block;
+                width: 100% !important;
+            }
+            
+            .info-cell {
+                border-left: none;
+                border-top: 3px solid #2d7a3a;
+                padding-left: 0;
+                padding-top: 20px;
+                margin-top: 20px;
+            }
+            
+            .logo-cell {
+                padding-right: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="preview-header">
+            <h1>Email Signature Preview</h1>
+            <p>NextGen Electrical Services - Professional Corporate Signature</p>
+        </div>
+        
+        <div class="email-client-mockup">
+            <div class="email-header">
+                <div class="email-field">
+                    <strong> From:</strong>
+                    <span> John Smith &lt;john@nextgenelectrical.com&gt;</span>
+                </div>
+                <div class="email-field">
+                    <strong> To:</strong>
+                    <span> client@example.com</span>
+                </div>
+                <div class="email-field">
+                    <strong> Subject:</strong>
+                    <span> Project Update - Electrical Installation</span>
+                </div>
+            </div>
+            
+            <div class="email-body">
+                <div class="email-content">
+                    Hi,<br><br>
+                    Thank you for your inquiry. I'll review the details and get back to you shortly with a comprehensive quote.<br><br>
+                    Best regards,
+                </div>
+                
+                <hr class="signature-divider">
+                
+                <!-- Email Signature -->
+                <table class="signature-table" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td class="logo-cell">
+                            <img src="Next Gen logo.jpg" alt="NextGen Electrical Services Logo">
+                        </td>
+                        <td class="info-cell">
+                            <div class="name">John Smith</div>
+                            <div class="title">Operations Manager</div>
+                            <div class="contact-info">
+                                <div class="contact-item">
+                                    <span class="contact-label">Phone:</span>
+                                    <span class="contact-value">(123) 456-7890</span>
+                                </div>
+                                <div class="contact-item">
+                                    <span class="contact-label">Email:</span>
+                                    <span class="contact-value"><a href="mailto:john@nextgenelectrical.com">john@nextgenelectrical.com</a></span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+        <div class="code-section">
+            <h2>HTML Code for Email Client</h2>
+            <div class="code-block">
+                <code><span class="tag">&lt;table</span> <span class="attr">cellpadding</span>=<span class="value">"0"</span> <span class="attr">cellspacing</span>=<span class="value">"0"</span> <span class="attr">border</span>=<span class="value">"0"</span> <span class="attr">style</span>=<span class="value">"width: 100%; max-width: 600px; font-family: Arial, Helvetica, sans-serif; color: #333;"</span><span class="tag">&gt;</span>
+                  <span class="tag">&lt;tr&gt;</span>
+                    <span class="tag">&lt;td</span> <span class="attr">style</span>=<span class="value">"width: 140px; padding-right: 25px; vertical-align: top;"</span><span class="tag">&gt;</span>
+                      <span class="tag">&lt;img</span> <span class="attr">src</span>=<span class="value">"LOGO_URL"</span> <span class="attr">alt</span>=<span class="value">"NextGen Electrical Services"</span> <span class="attr">width</span>=<span class="value">"140"</span> <span class="attr">style</span>=<span class="value">"display: block;"</span><span class="tag">/&gt;</span>
+                    <span class="tag">&lt;/td&gt;</span>
+                    <span class="tag">&lt;td</span> <span class="attr">style</span>=<span class="value">"border-left: 3px solid #2d7a3a; padding-left: 25px; vertical-align: top;"</span><span class="tag">&gt;</span>
+                      <span class="tag">&lt;div</span> <span class="attr">style</span>=<span class="value">"font-size: 22px; font-weight: bold; color: #1a1a1a; margin-bottom: 4px;"</span><span class="tag">&gt;</span><span class="text">John Smith</span><span class="tag">&lt;/div&gt;</span>
+                      <span class="tag">&lt;div</span> <span class="attr">style</span>=<span class="value">"font-size: 15px; color: #2d7a3a; font-weight: 600; margin-bottom: 18px; text-transform: uppercase; letter-spacing: 0.5px;"</span><span class="tag">&gt;</span><span class="text">Operations Manager</span><span class="tag">&lt;/div&gt;</span>
+                      <span class="tag">&lt;div</span> <span class="attr">style</span>=<span class="value">"font-size: 14px; line-height: 1.8; color: #555;"</span><span class="tag">&gt;</span>
+                        <span class="tag">&lt;div</span> <span class="attr">style</span>=<span class="value">"margin-bottom: 4px;"</span><span class="tag">&gt;</span>
+                          <span class="tag">&lt;span</span> <span class="attr">style</span>=<span class="value">"color: #888; display: inline-block; width: 60px; font-size: 13px;"</span><span class="tag">&gt;</span><span class="text">Phone:</span><span class="tag">&lt;/span&gt;</span>
+                          <span class="tag">&lt;span</span> <span class="attr">style</span>=<span class="value">"color: #333; font-weight: 500;"</span><span class="tag">&gt;</span><span class="text">(123) 456-7890</span><span class="tag">&lt;/span&gt;</span>
+                        <span class="tag">&lt;/div&gt;</span>
+                        <span class="tag">&lt;div</span> <span class="attr">style</span>=<span class="value">"margin-bottom: 4px;"</span><span class="tag">&gt;</span>
+                          <span class="tag">&lt;span</span> <span class="attr">style</span>=<span class="value">"color: #888; display: inline-block; width: 60px; font-size: 13px;"</span><span class="tag">&gt;</span><span class="text">Email:</span><span class="tag">&lt;/span&gt;</span>
+                          <span class="tag">&lt;a</span> <span class="attr">href</span>=<span class="value">"mailto:john@nextgenelectrical.com"</span> <span class="attr">style</span>=<span class="value">"color: #333; text-decoration: none; font-weight: 500;"</span><span class="tag">&gt;</span><span class="text">john@nextgenelectrical.com</span><span class="tag">&lt;/a&gt;</span>
+                        <span class="tag">&lt;/div&gt;</span>
+                      <span class="tag">&lt;/div&gt;</span>
+                    <span class="tag">&lt;/td&gt;</span>
+                  <span class="tag">&lt;/tr&gt;</span>
+                <span class="tag">&lt;/table&gt;</span></code>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
